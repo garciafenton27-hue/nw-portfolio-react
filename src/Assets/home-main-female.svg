@@ -1,0 +1,344 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 820" width="900" height="820">
+  <defs>
+    <linearGradient id="skinGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#FDBCB4"/>
+      <stop offset="100%" style="stop-color:#F0967D"/>
+    </linearGradient>
+    <linearGradient id="hairGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#2C1810"/>
+      <stop offset="100%" style="stop-color:#1a0f0a"/>
+    </linearGradient>
+    <linearGradient id="shirtGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#5B6EF5"/>
+      <stop offset="100%" style="stop-color:#3D4FD6"/>
+    </linearGradient>
+    <linearGradient id="deskGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#C8A882"/>
+      <stop offset="100%" style="stop-color:#A8845A"/>
+    </linearGradient>
+    <linearGradient id="monitorGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#2A2D3E"/>
+      <stop offset="100%" style="stop-color:#1E2130"/>
+    </linearGradient>
+    <linearGradient id="screenGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0F1729"/>
+      <stop offset="100%" style="stop-color:#1A2540"/>
+    </linearGradient>
+    <linearGradient id="chairGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#484E6B"/>
+      <stop offset="100%" style="stop-color:#323654"/>
+    </linearGradient>
+    <linearGradient id="pantsGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#2A2F45"/>
+      <stop offset="100%" style="stop-color:#363C58"/>
+    </linearGradient>
+    <filter id="softShadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="3" dy="6" stdDeviation="8" flood-color="#00000030"/>
+    </filter>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+
+  <!-- FLOOR SHADOW -->
+  <ellipse cx="460" cy="760" rx="310" ry="28" fill="#00000015"/>
+
+  <!-- DESK -->
+  <polygon points="160,430 720,430 760,470 120,470" fill="url(#deskGrad)" filter="url(#softShadow)"/>
+  <polygon points="120,470 760,470 760,640 120,640" fill="#B8935A"/>
+  <polygon points="120,470 160,430 160,600 120,640" fill="#8A6A3A"/>
+  <polygon points="160,430 720,430 720,435 160,435" fill="#D4B090" opacity="0.6"/>
+  <rect x="130" y="625" width="38" height="130" rx="4" fill="#7A5A32"/>
+  <rect x="700" y="625" width="38" height="130" rx="4" fill="#7A5A32"/>
+  <rect x="130" y="690" width="608" height="14" rx="4" fill="#6A4A22"/>
+
+  <!-- CHAIR -->
+  <rect x="390" y="220" width="130" height="195" rx="16" fill="url(#chairGrad)" filter="url(#softShadow)"/>
+  <rect x="402" y="232" width="106" height="170" rx="10" fill="#545878" opacity="0.6"/>
+  <line x1="455" y1="238" x2="455" y2="390" stroke="#3A3E56" stroke-width="2" stroke-dasharray="6,4" opacity="0.5"/>
+  <rect x="384" y="212" width="142" height="20" rx="10" fill="#4A5068"/>
+  <ellipse cx="455" cy="510" rx="100" ry="32" fill="#424666"/>
+  <rect x="355" y="506" width="200" height="24" rx="12" fill="#3A3E5A"/>
+  <rect x="332" y="392" width="24" height="105" rx="8" fill="#3A3E5A"/>
+  <rect x="554" y="392" width="24" height="105" rx="8" fill="#3A3E5A"/>
+  <rect x="328" y="385" width="32" height="13" rx="6" fill="#484C6A"/>
+  <rect x="550" y="385" width="32" height="13" rx="6" fill="#484C6A"/>
+  <rect x="443" y="532" width="24" height="68" fill="#2A2E45"/>
+  <ellipse cx="455" cy="613" rx="88" ry="15" fill="#252840" opacity="0.8"/>
+  <line x1="367" y1="613" x2="543" y2="613" stroke="#252840" stroke-width="11" stroke-linecap="round"/>
+  <line x1="455" y1="598" x2="455" y2="628" stroke="#252840" stroke-width="11" stroke-linecap="round"/>
+  <line x1="392" y1="603" x2="518" y2="623" stroke="#252840" stroke-width="9" stroke-linecap="round"/>
+  <line x1="392" y1="623" x2="518" y2="603" stroke="#252840" stroke-width="9" stroke-linecap="round"/>
+  <circle cx="370" cy="617" r="7" fill="#1E2235"/>
+  <circle cx="540" cy="617" r="7" fill="#1E2235"/>
+  <circle cx="455" cy="633" r="7" fill="#1E2235"/>
+
+  <!-- MONITOR -->
+  <ellipse cx="390" cy="438" rx="52" ry="12" fill="#1E2235"/>
+  <rect x="382" y="355" width="16" height="90" rx="6" fill="#252840"/>
+  <rect x="195" y="115" width="390" height="255" rx="16" fill="url(#monitorGrad)" filter="url(#softShadow)"/>
+  <rect x="208" y="127" width="364" height="230" rx="8" fill="url(#screenGrad)"/>
+  <rect x="208" y="127" width="364" height="28" rx="8" fill="#252A3F"/>
+  <rect x="208" y="145" width="364" height="10" fill="#252A3F"/>
+  <circle cx="228" cy="141" r="6" fill="#FF5F57"/>
+  <circle cx="248" cy="141" r="6" fill="#FEBC2E"/>
+  <circle cx="268" cy="141" r="6" fill="#28C840"/>
+  <rect x="290" y="132" width="85" height="18" rx="4" fill="#1E2235"/>
+  <text x="332" y="145" font-family="'Courier New', monospace" font-size="9" fill="#8892B0" text-anchor="middle">index.tsx</text>
+  <rect x="208" y="155" width="30" height="202" fill="#1A1E30"/>
+  <rect x="248" y="163" width="22" height="6" rx="2" fill="#C792EA"/>
+  <rect x="275" y="163" width="35" height="6" rx="2" fill="#82AAFF"/>
+  <rect x="315" y="163" width="18" height="6" rx="2" fill="#89DDFF"/>
+  <rect x="338" y="163" width="45" height="6" rx="2" fill="#C3E88D"/>
+  <rect x="248" y="177" width="15" height="6" rx="2" fill="#89DDFF"/>
+  <rect x="268" y="177" width="28" height="6" rx="2" fill="#FFCB6B"/>
+  <rect x="301" y="177" width="52" height="6" rx="2" fill="#F78C6C"/>
+  <rect x="358" y="177" width="30" height="6" rx="2" fill="#EEFFFF"/>
+  <rect x="208" y="191" width="364" height="14" fill="#2D3250" opacity="0.6"/>
+  <rect x="248" y="193" width="55" height="6" rx="2" fill="#82AAFF"/>
+  <rect x="308" y="193" width="20" height="6" rx="2" fill="#89DDFF"/>
+  <rect x="333" y="193" width="38" height="6" rx="2" fill="#C3E88D"/>
+  <rect x="376" y="193" width="28" height="6" rx="2" fill="#C792EA"/>
+  <rect x="408" y="192" width="2" height="10" fill="#82AAFF" opacity="0.9"/>
+  <rect x="258" y="207" width="42" height="6" rx="2" fill="#FFCB6B"/>
+  <rect x="305" y="207" width="15" height="6" rx="2" fill="#89DDFF"/>
+  <rect x="325" y="207" width="60" height="6" rx="2" fill="#C3E88D"/>
+  <rect x="268" y="221" width="30" height="6" rx="2" fill="#C792EA"/>
+  <rect x="303" y="221" width="18" height="6" rx="2" fill="#89DDFF"/>
+  <rect x="326" y="221" width="40" height="6" rx="2" fill="#FFCB6B"/>
+  <rect x="371" y="221" width="22" height="6" rx="2" fill="#EEFFFF"/>
+  <rect x="248" y="235" width="55" height="6" rx="2" fill="#F78C6C"/>
+  <rect x="308" y="235" width="35" height="6" rx="2" fill="#82AAFF"/>
+  <rect x="258" y="249" width="20" height="6" rx="2" fill="#89DDFF"/>
+  <rect x="283" y="249" width="48" height="6" rx="2" fill="#C3E88D"/>
+  <rect x="336" y="249" width="30" height="6" rx="2" fill="#EEFFFF"/>
+  <rect x="248" y="263" width="35" height="6" rx="2" fill="#FFCB6B"/>
+  <rect x="288" y="263" width="22" height="6" rx="2" fill="#89DDFF"/>
+  <rect x="315" y="263" width="55" height="6" rx="2" fill="#C792EA"/>
+  <rect x="248" y="277" width="15" height="6" rx="2" fill="#C792EA"/>
+  <rect x="268" y="277" width="40" height="6" rx="2" fill="#82AAFF"/>
+  <rect x="313" y="277" width="28" height="6" rx="2" fill="#C3E88D"/>
+  <rect x="248" y="291" width="60" height="6" rx="2" fill="#F78C6C"/>
+  <rect x="313" y="291" width="25" height="6" rx="2" fill="#EEFFFF"/>
+  <rect x="258" y="305" width="32" height="6" rx="2" fill="#FFCB6B"/>
+  <rect x="295" y="305" width="18" height="6" rx="2" fill="#89DDFF"/>
+  <rect x="318" y="305" width="44" height="6" rx="2" fill="#C792EA"/>
+  <rect x="248" y="319" width="22" height="6" rx="2" fill="#89DDFF"/>
+  <rect x="275" y="319" width="35" height="6" rx="2" fill="#C3E88D"/>
+  <rect x="315" y="319" width="50" height="6" rx="2" fill="#EEFFFF"/>
+  <text x="221" y="168" font-family="'Courier New', monospace" font-size="7" fill="#3D4460" text-anchor="middle">1</text>
+  <text x="221" y="182" font-family="'Courier New', monospace" font-size="7" fill="#3D4460" text-anchor="middle">2</text>
+  <text x="221" y="196" font-family="'Courier New', monospace" font-size="7" fill="#5D6480" text-anchor="middle">3</text>
+  <text x="221" y="210" font-family="'Courier New', monospace" font-size="7" fill="#3D4460" text-anchor="middle">4</text>
+  <text x="221" y="224" font-family="'Courier New', monospace" font-size="7" fill="#3D4460" text-anchor="middle">5</text>
+  <text x="221" y="238" font-family="'Courier New', monospace" font-size="7" fill="#3D4460" text-anchor="middle">6</text>
+  <text x="221" y="252" font-family="'Courier New', monospace" font-size="7" fill="#3D4460" text-anchor="middle">7</text>
+  <text x="221" y="266" font-family="'Courier New', monospace" font-size="7" fill="#3D4460" text-anchor="middle">8</text>
+  <text x="221" y="280" font-family="'Courier New', monospace" font-size="7" fill="#3D4460" text-anchor="middle">9</text>
+  <text x="221" y="294" font-family="'Courier New', monospace" font-size="7" fill="#3D4460" text-anchor="middle">10</text>
+  <text x="221" y="308" font-family="'Courier New', monospace" font-size="7" fill="#3D4460" text-anchor="middle">11</text>
+  <text x="221" y="322" font-family="'Courier New', monospace" font-size="7" fill="#3D4460" text-anchor="middle">12</text>
+  <rect x="195" y="361" width="390" height="18" fill="#252840"/>
+  <rect x="195" y="367" width="390" height="8" fill="#1E2235"/>
+  <circle cx="390" cy="370" r="3" fill="#00FF88" opacity="0.8" filter="url(#glow)"/>
+
+  <!-- KEYBOARD -->
+  <rect x="280" y="445" width="220" height="68" rx="8" fill="#D8D0C0"/>
+  <rect x="280" y="445" width="220" height="10" rx="4" fill="#E8E0D0"/>
+  <rect x="288" y="458" width="20" height="12" rx="3" fill="#C0B8A8"/>
+  <rect x="312" y="458" width="20" height="12" rx="3" fill="#C0B8A8"/>
+  <rect x="336" y="458" width="20" height="12" rx="3" fill="#C0B8A8"/>
+  <rect x="360" y="458" width="20" height="12" rx="3" fill="#C0B8A8"/>
+  <rect x="384" y="458" width="20" height="12" rx="3" fill="#C0B8A8"/>
+  <rect x="408" y="458" width="20" height="12" rx="3" fill="#C0B8A8"/>
+  <rect x="432" y="458" width="20" height="12" rx="3" fill="#C0B8A8"/>
+  <rect x="456" y="458" width="20" height="12" rx="3" fill="#C0B8A8"/>
+  <rect x="480" y="458" width="14" height="12" rx="3" fill="#C0B8A8"/>
+  <rect x="288" y="474" width="16" height="12" rx="3" fill="#C0B8A8"/>
+  <rect x="308" y="474" width="20" height="12" rx="3" fill="#C0B8A8"/>
+  <rect x="332" y="474" width="20" height="12" rx="3" fill="#C0B8A8"/>
+  <rect x="356" y="474" width="20" height="12" rx="3" fill="#C0B8A8"/>
+  <rect x="380" y="474" width="20" height="12" rx="3" fill="#C0B8A8"/>
+  <rect x="404" y="474" width="20" height="12" rx="3" fill="#C0B8A8"/>
+  <rect x="428" y="474" width="20" height="12" rx="3" fill="#C0B8A8"/>
+  <rect x="452" y="474" width="42" height="12" rx="3" fill="#C0B8A8"/>
+  <rect x="330" y="490" width="130" height="12" rx="3" fill="#C0B8A8"/>
+  <rect x="280" y="505" width="220" height="8" rx="4" fill="#B8B0A0"/>
+
+  <!-- MOUSE -->
+  <rect x="515" y="450" width="40" height="55" rx="18" fill="#D0C8B8"/>
+  <rect x="515" y="450" width="40" height="19" rx="13" fill="#C0B8A8"/>
+  <line x1="535" y1="450" x2="535" y2="469" stroke="#B0A898" stroke-width="1.5"/>
+
+  <!-- COFFEE MUG -->
+  <rect x="620" y="395" width="50" height="48" rx="6" fill="#F5F0E8"/>
+  <rect x="620" y="395" width="50" height="14" rx="6" fill="#E8E0D0"/>
+  <path d="M670,408 Q692,408 692,419 Q692,430 670,430" fill="none" stroke="#E0D8C8" stroke-width="7" stroke-linecap="round"/>
+  <rect x="620" y="410" width="50" height="6" fill="#5B6EF5" opacity="0.7"/>
+  <path d="M635,392 Q638,382 634,374" fill="none" stroke="#CCC" stroke-width="2.5" stroke-linecap="round" opacity="0.5"/>
+  <path d="M648,390 Q652,378 648,368" fill="none" stroke="#CCC" stroke-width="2.5" stroke-linecap="round" opacity="0.5"/>
+  <path d="M660,392 Q664,381 660,373" fill="none" stroke="#CCC" stroke-width="2.5" stroke-linecap="round" opacity="0.4"/>
+
+  <!-- STICKY NOTE -->
+  <rect x="600" y="128" width="58" height="55" rx="3" fill="#FFF176" transform="rotate(3, 629, 155)"/>
+  <line x1="607" y1="142" x2="650" y2="141" stroke="#DDD050" stroke-width="1.5" opacity="0.7" transform="rotate(3, 629, 155)"/>
+  <line x1="607" y1="152" x2="650" y2="151" stroke="#DDD050" stroke-width="1.5" opacity="0.7" transform="rotate(3, 629, 155)"/>
+  <line x1="607" y1="162" x2="645" y2="161" stroke="#DDD050" stroke-width="1.5" opacity="0.7" transform="rotate(3, 629, 155)"/>
+
+  <!-- PLANT -->
+  <rect x="680" y="390" width="58" height="52" rx="6" fill="#8B6355"/>
+  <rect x="674" y="387" width="70" height="12" rx="4" fill="#A07868"/>
+  <ellipse cx="709" cy="393" rx="32" ry="7" fill="#5A3A28"/>
+  <path d="M709,393 Q695,360 680,340" fill="none" stroke="#4CAF50" stroke-width="4" stroke-linecap="round"/>
+  <path d="M709,393 Q720,358 730,335" fill="none" stroke="#4CAF50" stroke-width="4" stroke-linecap="round"/>
+  <path d="M709,393 Q706,355 710,328" fill="none" stroke="#4CAF50" stroke-width="3.5" stroke-linecap="round"/>
+  <ellipse cx="673" cy="335" rx="22" ry="11" fill="#66BB6A" transform="rotate(-35, 673, 335)"/>
+  <ellipse cx="736" cy="328" rx="22" ry="10" fill="#558B2F" transform="rotate(25, 736, 328)"/>
+  <ellipse cx="710" cy="320" rx="18" ry="9" fill="#66BB6A" transform="rotate(-5, 710, 320)"/>
+  <ellipse cx="685" cy="318" rx="16" ry="8" fill="#81C784" transform="rotate(-45, 685, 318)"/>
+  <ellipse cx="730" cy="315" rx="16" ry="8" fill="#4CAF50" transform="rotate(40, 730, 315)"/>
+
+  <!-- ══════════ SLIM CHARACTER ══════════ -->
+
+  <!-- LEGS — slim, close together, tucked under desk -->
+  <!-- Left thigh -->
+  <path d="M425,535 Q418,548 412,572 Q407,590 405,608 L432,608 Q434,590 436,572 Q438,550 440,537 Z" fill="url(#pantsGrad)"/>
+  <!-- Right thigh -->
+  <path d="M470,535 Q477,548 482,572 Q487,590 488,608 L461,608 Q460,590 458,572 Q456,550 454,537 Z" fill="#2F3450"/>
+  <!-- Left lower leg -->
+  <path d="M405,608 Q400,625 398,645 Q396,662 398,675 L426,675 Q428,660 428,642 Q428,624 432,608 Z" fill="url(#pantsGrad)"/>
+  <!-- Right lower leg -->
+  <path d="M488,608 Q492,625 492,645 Q492,662 490,675 L463,675 Q462,660 462,642 Q461,624 461,608 Z" fill="#2F3450"/>
+  <!-- Left shoe — slim, elegant -->
+  <path d="M394,672 Q388,678 386,688 Q385,697 393,700 L428,700 Q434,697 434,688 Q434,679 428,673 Z" fill="#2A2030"/>
+  <!-- Right shoe -->
+  <path d="M460,672 Q460,680 459,688 Q458,697 466,700 L498,700 Q504,697 504,688 Q503,679 496,673 Z" fill="#2A2030"/>
+  <!-- Shoe sole line -->
+  <path d="M386,696 Q406,699 428,699" fill="none" stroke="#3A3048" stroke-width="1.5"/>
+  <path d="M459,696 Q476,699 500,699" fill="none" stroke="#3A3048" stroke-width="1.5"/>
+
+  <!-- TORSO — slim, narrow -->
+  <!-- Body width: x from 408 to 496 = 88px wide (slim) -->
+  <path d="M408,318 Q400,345 396,400 Q392,450 394,535 L500,535 Q502,450 498,400 Q494,345 486,318 Z" fill="url(#shirtGrad)"/>
+  <!-- V-neck collar -->
+  <path d="M418,318 Q447,348 476,318" fill="none" stroke="#4A5CE0" stroke-width="2.5"/>
+  <!-- Subtle shirt shading -->
+  <path d="M406,360 Q400,400 398,455" fill="none" stroke="#4A5CE0" stroke-width="1" opacity="0.35"/>
+  <path d="M488,360 Q494,400 496,455" fill="none" stroke="#4A5CE0" stroke-width="1" opacity="0.35"/>
+
+  <!-- LEFT ARM — slim, toward keyboard -->
+  <!-- Upper arm sleeve -->
+  <path d="M408,330 Q378,345 360,372 Q346,394 340,428" stroke="#4A5CE0" stroke-width="20" stroke-linecap="round" fill="none"/>
+  <!-- Skin under sleeve end -->
+  <path d="M340,428 Q338,455 344,478 Q350,496 360,505" stroke="#F0967D" stroke-width="16" stroke-linecap="round" fill="none"/>
+  <!-- Left hand -->
+  <ellipse cx="366" cy="510" rx="22" ry="13" fill="#F0967D" transform="rotate(-12, 366, 510)"/>
+  <!-- Slim fingers left -->
+  <path d="M350,504 Q347,497 351,492" stroke="#E8856C" stroke-width="5" stroke-linecap="round" fill="none"/>
+  <path d="M360,501 Q358,494 362,489" stroke="#E8856C" stroke-width="5" stroke-linecap="round" fill="none"/>
+  <path d="M370,500 Q369,493 373,488" stroke="#E8856C" stroke-width="5" stroke-linecap="round" fill="none"/>
+  <path d="M380,502 Q380,495 383,491" stroke="#E8856C" stroke-width="5" stroke-linecap="round" fill="none"/>
+
+  <!-- RIGHT ARM — slim, toward mouse -->
+  <!-- Upper arm sleeve -->
+  <path d="M486,330 Q516,345 532,372 Q546,394 550,428" stroke="#4A5CE0" stroke-width="20" stroke-linecap="round" fill="none"/>
+  <!-- Skin forearm -->
+  <path d="M550,428 Q552,455 546,476 Q540,494 530,502" stroke="#F0967D" stroke-width="15" stroke-linecap="round" fill="none"/>
+  <!-- Right hand -->
+  <ellipse cx="524" cy="507" rx="21" ry="12" fill="#F0967D" transform="rotate(10, 524, 507)"/>
+  <!-- Slim fingers right -->
+  <path d="M508,502 Q505,495 509,490" stroke="#E8856C" stroke-width="5" stroke-linecap="round" fill="none"/>
+  <path d="M518,500 Q516,493 520,488" stroke="#E8856C" stroke-width="5" stroke-linecap="round" fill="none"/>
+  <path d="M528,499 Q527,492 531,488" stroke="#E8856C" stroke-width="5" stroke-linecap="round" fill="none"/>
+  <path d="M538,501 Q538,494 541,490" stroke="#E8856C" stroke-width="5" stroke-linecap="round" fill="none"/>
+
+  <!-- NECK — slim -->
+  <rect x="440" y="292" width="20" height="30" rx="9" fill="#F0967D"/>
+
+  <!-- HEAD -->
+  <ellipse cx="450" cy="222" rx="68" ry="76" fill="#FDBCB4"/>
+  <!-- Slight side shadow -->
+  <path d="M508,192 Q520,212 516,244 Q512,268 500,280 Q488,266 486,242 Q487,215 500,196 Z" fill="#E8A090" opacity="0.4"/>
+
+  <!-- HAIR — professional updo bun -->
+  <!-- Back side hair left -->
+  <path d="M387,178 Q377,198 375,240 Q373,276 378,312 Q385,338 393,350 Q397,326 397,296 Q397,256 399,222 Q401,196 406,178 Z" fill="url(#hairGrad)"/>
+  <!-- Back side hair right -->
+  <path d="M513,178 Q523,198 525,240 Q527,276 522,312 Q515,338 507,350 Q503,326 503,296 Q503,256 501,222 Q499,196 494,178 Z" fill="#1E1008"/>
+  <!-- Top hair -->
+  <path d="M390,152 Q414,115 450,110 Q486,115 510,152 Q521,168 520,185 Q503,170 485,164 Q468,160 450,159 Q432,160 415,164 Q397,170 380,185 Q379,168 390,152 Z" fill="url(#hairGrad)"/>
+  <!-- Bun -->
+  <circle cx="450" cy="123" r="25" fill="#1E1008"/>
+  <ellipse cx="450" cy="117" rx="23" ry="18" fill="url(#hairGrad)"/>
+  <path d="M432,108 Q450,102 468,108 Q461,120 450,122 Q439,120 432,108 Z" fill="#2C1810" opacity="0.7"/>
+  <!-- Bun highlight -->
+  <path d="M438,116 Q450,110 462,116" fill="none" stroke="#4A2E1A" stroke-width="2" opacity="0.5"/>
+  <!-- Temple wisps -->
+  <path d="M388,185 Q381,200 382,218" fill="none" stroke="#2C1810" stroke-width="2.5" stroke-linecap="round" opacity="0.8"/>
+  <path d="M512,185 Q519,200 518,218" fill="none" stroke="#2C1810" stroke-width="2.5" stroke-linecap="round" opacity="0.8"/>
+
+  <!-- GLASSES -->
+  <rect x="400" y="222" width="44" height="30" rx="9" fill="none" stroke="#2A2A3A" stroke-width="3.5"/>
+  <rect x="456" y="222" width="44" height="30" rx="9" fill="none" stroke="#2A2A3A" stroke-width="3.5"/>
+  <line x1="444" y1="236" x2="456" y2="236" stroke="#2A2A3A" stroke-width="3"/>
+  <line x1="400" y1="234" x2="382" y2="241" stroke="#2A2A3A" stroke-width="3" stroke-linecap="round"/>
+  <line x1="500" y1="234" x2="518" y2="241" stroke="#2A2A3A" stroke-width="3" stroke-linecap="round"/>
+  <!-- Lens glare -->
+  <path d="M406,227 Q412,224 416,228" fill="none" stroke="white" stroke-width="1.8" stroke-linecap="round" opacity="0.55"/>
+  <path d="M462,227 Q468,224 472,228" fill="none" stroke="white" stroke-width="1.8" stroke-linecap="round" opacity="0.55"/>
+  <rect x="401" y="223" width="42" height="28" rx="8" fill="#6888FF" opacity="0.07"/>
+  <rect x="457" y="223" width="42" height="28" rx="8" fill="#6888FF" opacity="0.07"/>
+
+  <!-- EYEBROWS -->
+  <path d="M402,216 Q421,207 440,213" stroke="#2C1810" stroke-width="3.5" fill="none" stroke-linecap="round"/>
+  <path d="M460,213 Q479,207 498,216" stroke="#2C1810" stroke-width="3.5" fill="none" stroke-linecap="round"/>
+
+  <!-- EYES -->
+  <ellipse cx="422" cy="236" rx="12" ry="10" fill="white"/>
+  <circle cx="424" cy="237" r="7" fill="#4A3020"/>
+  <circle cx="425" cy="237" r="4" fill="#2A1810"/>
+  <circle cx="427" cy="234" r="2" fill="white"/>
+  <ellipse cx="478" cy="236" rx="12" ry="10" fill="white"/>
+  <circle cx="476" cy="237" r="7" fill="#4A3020"/>
+  <circle cx="477" cy="237" r="4" fill="#2A1810"/>
+  <circle cx="479" cy="234" r="2" fill="white"/>
+
+  <!-- NOSE -->
+  <path d="M445,258 Q441,270 441,277 Q445,283 450,283 Q455,283 459,277 Q459,270 455,258" fill="none" stroke="#D88070" stroke-width="2" stroke-linecap="round" opacity="0.75"/>
+
+  <!-- LIPS -->
+  <path d="M434,300 Q442,296 450,298 Q458,296 466,300" fill="#C07060" stroke="#C07060" stroke-width="1"/>
+  <path d="M434,300 Q442,306 450,307 Q458,306 466,300" fill="#D4806E"/>
+  <path d="M440,300 Q450,298 460,300" fill="none" stroke="#E8A090" stroke-width="1.2" opacity="0.5"/>
+
+  <!-- Cheek blush — very subtle -->
+  <ellipse cx="404" cy="266" rx="17" ry="10" fill="#E89080" opacity="0.1"/>
+  <ellipse cx="496" cy="266" rx="17" ry="10" fill="#E89080" opacity="0.1"/>
+
+  <!-- EARS -->
+  <path d="M383,238 Q377,249 379,261 Q382,272 389,274 Q386,262 386,249 Z" fill="#F0967D"/>
+  <path d="M517,238 Q523,249 521,261 Q518,272 511,274 Q514,262 514,249 Z" fill="#F0967D"/>
+  <!-- Gold stud earrings -->
+  <circle cx="378" cy="252" r="4.5" fill="#F4C430"/>
+  <circle cx="522" cy="252" r="4.5" fill="#F4C430"/>
+  <circle cx="376" cy="250" r="1.8" fill="#FFDB70" opacity="0.8"/>
+  <circle cx="520" cy="250" r="1.8" fill="#FFDB70" opacity="0.8"/>
+
+  <!-- WATCH on left wrist -->
+  <rect x="348" y="462" width="28" height="20" rx="5" fill="#2A2A3A"/>
+  <rect x="350" y="464" width="24" height="16" rx="4" fill="#1E2235"/>
+  <text x="362" y="475" font-family="'Courier New', monospace" font-size="6.5" fill="#82AAFF" text-anchor="middle">10:24</text>
+  <rect x="346" y="466" width="4" height="12" rx="2" fill="#2A2A3A"/>
+  <rect x="374" y="466" width="4" height="12" rx="2" fill="#2A2A3A"/>
+
+  <!-- Screen glow on face -->
+  <ellipse cx="448" cy="238" rx="72" ry="55" fill="#4A6FFF" opacity="0.04"/>
+
+  <!-- RUBBER DUCK -->
+  <ellipse cx="580" cy="436" rx="13" ry="8" fill="#FFD700"/>
+  <ellipse cx="580" cy="429" rx="8" ry="7" fill="#FFD700"/>
+  <circle cx="583" cy="427" r="1.8" fill="#2A2A3A"/>
+  <path d="M585,427 Q590,427 589,430" fill="#FF8C00" stroke="#FF8C00" stroke-width="0.8"/>
+
+</svg>
